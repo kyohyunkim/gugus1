@@ -1,0 +1,92 @@
+@charset 'utf-8';
+@import url('common.css');
+*img{width:100%;}
+*{
+    box-sizing: border-box;
+    font-size:14px;
+    font-family:'Noto Sans KR';
+}
+span, p, td, form, li{color:#222;}
+main{
+    padding:300px 0 0 0;
+}
+
+.f-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.i-1{
+    position: relative;
+    width:60%;
+    text-align: center;
+}
+.i-1 div:nth-of-type(1){
+    width:100%;
+}
+.i-1 div:nth-of-type(2){
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+.i-1 div img{width:100%;}
+.ind{
+    display: flex;
+    justify-content: space-between;
+    padding:0 40% 3% 40%;
+}
+.i-1 .ind a div{
+    border:1px solid#222;
+    border-radius: 100%;
+    width:25px; height: 25px;
+    font-size: 0;
+}
+.i-1 .ind .active div{
+    background-color: #222;
+    border-radius: 100%;
+    width:25px; height: 25px;
+    font-size: 0;
+}
+.t-1{
+    width:35%;
+}
+
+.t-1 p:nth-of-type(1){
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.t-1 p:nth-of-type(2){
+    font-size: 5rem;
+    font-weight: bold;
+    padding:0 0 6% 0;
+}
+.t-1 p:nth-of-type(3){
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:20% 0 3% 0;
+}
+.t-1 p:nth-of-type(4){
+    font-weight: bold;
+    padding:4% 0 4% 0
+}
+.t-1 p:nth-of-type(5){
+    font-weight: bold;
+    padding:0 0 4% 0
+}
+.t-1 .button{
+    display: flex;
+    justify-content: space-between;
+    width:73%;
+}
+.t-1 li{
+    font-weight: bold;
+}
+.t-1 li:nth-of-type(1){
+    font-weight: bold;
+    padding:3% 0 0 0;
+}
+.t-1 table{
+    border-bottom: 1px solid#dbdbdb;
+    width:100%;
+}

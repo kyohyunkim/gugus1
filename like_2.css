@@ -1,0 +1,68 @@
+@charset 'utf-8';
+@import url('common.css');
+*img{width:100%;}
+main{padding:300px 0 0 0;}
+main p,main td,main form,main div,main label,main span,main option,main a{color:#222;}
+
+
+.h-1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.m-1{
+    padding:7% 0 0 0;
+    width:100%;
+}
+.i-1{
+    background-image: url('img/bag_1.jpg');
+    background-size:contain;
+    width:290px;
+    height: 290px;
+}
+.i-1 div{
+    text-align: right;
+    padding:0 4% 0 0;
+}
+.i-1 div a{
+    font-size: 1.5rem;
+}
+.i-2 .a-1{
+    width:290px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+    padding:0 0 1% 0;
+    font-weight: bold;
+}
+.i-2 .a-1 div:nth-of-type(2){
+    font-size: 0.75rem;
+    padding:1.5% 0 0 0;
+}
+.i-2{
+    margin-right: auto;
+    padding:2% 0 0 0;
+}
+.i-2 .a-2 div{
+    padding:0 0 4% 0;
+    font-size: 0.75rem;
+}
+.a-3{
+    display: flex;
+    justify-content: space-between;
+    width:285px;
+    padding:1% 0 0 0;
+}
+.a-3 div a{
+    font-size:0.75rem;
+}
+select{ 
+    color:#222;
+    font-weight: bold;
+    border: 2px solid#222;
+    font-size: 0.5rem;
+    height: 7%;
+    width:22%;
+}
+select::-ms-expand {
+    display: none;
+}
