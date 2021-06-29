@@ -1,10 +1,10 @@
-@media (min-width: 1200px) and (max-width: 1920px){
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
-
+@media (min-width: 1568px){
 html{
     min-height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 body {
     min-height: 100%;
@@ -217,7 +217,6 @@ nav a{
 }
 .f1{width:45%;}
 .f1 div a{font-size: 0.8vw;}
-.f1 div:nth-of-type(1){}
 .f1 div:nth-of-type(2){margin-top:23%; font-size: 0.8vw;}
 
 .f2{width:25%;}
@@ -226,14 +225,11 @@ nav a{
 .f2 div p{font-size: 0.8vw;}
 .f2 div figure{margin-top:2%;}
 .f2 .img2{width:60%;}
-.f2 div:nth-of-type(1){}
-.f2 div:nth-of-type(2){}
 .f2 div:nth-of-type(3){margin-top:40%;}
 
 .f3{width:20%;}
 .f3 div a{font-size: 0.8vw;}
 .f3 div a span{font-size: 0.8vw;}
-.f3 div:nth-of-type(1){}
 .f3 div:nth-of-type(2){margin-top:1%;}
 .f3 div span:hover{
     color:#fff;
@@ -243,12 +239,12 @@ nav a{
 }
  
 
- @media (min-width: 992px) and (max-width: 1199px){
- @charset 'utf-8';
+ @media (min-width: 1305px) and (max-width: 1567px){
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
     html{
-        min-height: 100%;
-        margin: 0;
+    min-height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
     }
     body {
         min-height: 100%;
@@ -461,7 +457,6 @@ nav a{
     }
     .f1{width:45%;}
     .f1 div a{font-size: 0.8vw;}
-    .f1 div:nth-of-type(1){}
     .f1 div:nth-of-type(2){margin-top:23%; font-size: 0.8vw;}
     
     .f2{width:25%;}
@@ -470,14 +465,11 @@ nav a{
     .f2 div p{font-size: 0.8vw;}
     .f2 div figure{margin-top:2%;}
     .f2 .img2{width:60%;}
-    .f2 div:nth-of-type(1){}
-    .f2 div:nth-of-type(2){}
     .f2 div:nth-of-type(3){margin-top:40%;}
     
     .f3{width:20%;}
     .f3 div a{font-size: 0.8vw;}
     .f3 div a span{font-size: 0.8vw;}
-    .f3 div:nth-of-type(1){}
     .f3 div:nth-of-type(2){margin-top:1%;}
     .f3 div span:hover{
         color:#fff;
@@ -486,12 +478,12 @@ nav a{
  }
 
 
- @media (min-width: 768px) and (max-width: 991px){
-    @charset 'utf-8';
+ @media (min-width: 774px) and (max-width: 1304px){
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
     html{
         min-height: 100%;
         margin: 0;
+        scroll-behavior: smooth;
     }
     body {
         min-height: 100%;
@@ -706,7 +698,6 @@ nav a{
     }
     .f1{width:45%;}
     .f1 div a{font-size: 0.8vw;}
-    .f1 div:nth-of-type(1){}
     .f1 div:nth-of-type(2){
         margin-top:23%;
         font-size: 0.8vw;
@@ -718,26 +709,24 @@ nav a{
     .f2 div p{font-size: 0.8vw;}
     .f2 div figure{margin-top:2%;}
     .f2 .img2{width:60%;}
-    .f2 div:nth-of-type(1){}
-    .f2 div:nth-of-type(2){}
     .f2 div:nth-of-type(3){margin-top:40%;}
     
     .f3{width:20%;}
     .f3 div a{font-size: 0.8vw;}
     .f3 div a span{font-size: 0.8vw;}
-    .f3 div:nth-of-type(1){}
     .f3 div:nth-of-type(2){margin-top:1%;}
     .f3 div span:hover{
         color:#fff;
     }
      /* footer  */
- }
+}
 
- @media (max-width: 767px){
+ @media (max-width: 773px){
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
     html{
         min-height: 100%;
         margin: 0;
+        scroll-behavior: smooth;
     }
     body {
         min-height: 100%;
@@ -762,7 +751,7 @@ nav a{
     *{
         box-sizing: border-box;
         font-size:16px;
-        color:#dbdbdb;
+        color:#fff;
         font-family:'Noto Sans KR';
     }
     h1{font-size:48px;
@@ -841,9 +830,9 @@ nav a{
      }
      .head nav div a{
          color:#222;
-         font-size:0.8rem;
-         font-weight: lighter;
-         padding:5% 0 30% 3%;
+         font-size:18px;
+         font-weight: bold;
+         padding:5% 0 60px 3%;
 
      }
      .head > nav > a:hover + div{
@@ -872,7 +861,6 @@ nav a{
     margin-top:1%;
     display: none;
     }
-    .icon .my{}
     .icon .star{
         margin-left:10%;
     }
@@ -961,17 +949,16 @@ nav a{
         vertical-align: top;
     }
     .f1{width:100%;text-align: center;}
-    .f1 div a{font-size: 14px;}
-    .f1 div:nth-of-type(1){}
+    .f1 div a{font-size: 9px;}
     .f1 div:nth-of-type(2){
         margin-top:3%;
-        font-size: 14px;
+        font-size: 9px;
     }
     
     .f2{width:100%; text-align: center;}
-    .f2 div a{font-size: 14px;margin-top:2%;}
-    .f2 div span{font-size: 14px;}
-    .f2 div p{font-size: 14px;}
+    .f2 div a{font-size: 12px;margin-top:2%;}
+    .f2 div span{font-size: 12px;}
+    .f2 div p{font-size: 9px;}
     .f2 div figure{margin-top:2%;}
     .f2 .img2{width:40%;}
     .f2 div:nth-of-type(1){display: none;}
@@ -984,11 +971,10 @@ nav a{
     }
     .f3 div a{font-size: 0.8vw;}
     .f3 div a span{font-size: 0.8vw;}
-    .f3 div:nth-of-type(1){}
     .f3 div:nth-of-type(2){margin-top:1%;}
     .f3 div span:hover{
         color:#fff;
     }
      /* footer  */
  }
- }
+ 

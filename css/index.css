@@ -1,6 +1,7 @@
 @charset 'utf-8';
 @import url('common.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+@media (min-width: 1568px){
 .a1{
     display:flex;
     justify-content:space-between;
@@ -170,13 +171,11 @@
     position: relative;
     margin:90px 0;
 }
-.slide{}
 .slide .items{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.slide .items figure{}
 
 .a5-sub{position: relative;}
 .a5-sub img{
@@ -218,7 +217,6 @@
 .a5-sub-btn a:nth-of-type(1){transform: translateX(-200%);}
 .a5-sub-btn a:nth-of-type(2){transform: translateX(200%);}
 
-.a6{}
 .a6 h2 {
     font-size:7vw;
     font-weight:bold;
@@ -302,8 +300,9 @@ margin-bottom: -20%;
     text-align: center;
     margin-top:10%;
 }
+}
 
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 1305px) and (max-width: 1567px){
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 .a1{
     display:flex;
@@ -474,13 +473,12 @@ margin-bottom: -20%;
     position: relative;
     margin:90px 0;
 }
-.slide{}
+
 .slide .items{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.slide .items figure{}
 
 .a5-sub{position: relative;}
 .a5-sub img{
@@ -522,7 +520,7 @@ margin-bottom: -20%;
 .a5-sub-btn a:nth-of-type(1){transform: translateX(-200%);}
 .a5-sub-btn a:nth-of-type(2){transform: translateX(200%);}
 
-.a6{}
+
 .a6 h2 {
     font-size:7vw;
     font-weight:bold;
@@ -609,7 +607,7 @@ margin-bottom: -20%;
 }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 774px) and (max-width: 1304px){
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
     .a1{
         display:flex;
@@ -783,13 +781,12 @@ margin-bottom: -20%;
         position: relative;
         margin:90px 0;
     }
-    .slide{}
+    
     .slide .items{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .slide .items figure{}
     
     .a5-sub{position: relative;}
     .a5-sub img{
@@ -834,7 +831,6 @@ margin-bottom: -20%;
     .a5-sub-btn a:nth-of-type(1){transform: translateX(-200%);}
     .a5-sub-btn a:nth-of-type(2){transform: translateX(200%);}
     
-    .a6{}
     .a6 h2 {
         font-size:7vw;
         font-weight:bold;
@@ -922,7 +918,7 @@ margin-bottom: -20%;
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 773px){
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
     .a1{
         display:flex;
@@ -1105,13 +1101,11 @@ margin-bottom: -20%;
         position: relative;
         margin:0 0 90px 0;
     }
-    .slide{}
     .slide .items{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .slide .items figure{}
     
     .a5-sub{position: relative;}
     .a5-sub img{
@@ -1156,8 +1150,7 @@ margin-bottom: -20%;
     }
     .a5-sub-btn a:nth-of-type(1){transform: translateX(-200%);}
     .a5-sub-btn a:nth-of-type(2){transform: translateX(200%);}
-    
-    .a6{}
+
     .a6 h2 {
         font-size:7vw;
         font-weight:bold;
@@ -1178,11 +1171,12 @@ margin-bottom: -20%;
     }
     .st1{
         width:47%;
-        position:relative;
+        
     }
     
     .tx{
     margin:0%;
+    position:relative;
     }
     
     .st2{
@@ -1198,10 +1192,18 @@ margin-bottom: -20%;
         color:#222;
         font-weight:normal;  
     }
-    .st1 span{
-        font-size:0.7vw;
-        color:#222;
-        display: none;
+    .st1 .tx span{
+        font-size:.8rem;
+        color:#fff;
+        position:absolute;
+        bottom:150%;
+        left:5%;
+        width:70%;
+        transition:.5s;
+        opacity:0;
+    }
+    .st1 .tx span:hover{
+        opacity: 1;
     }
     
     .st2 .tx{margin-top:5%;}
@@ -1210,10 +1212,18 @@ margin-bottom: -20%;
         color:#222;
         font-weight:normal;  
     }
-    .st2 span{
-        font-size:0.7vw;
-        color:#222;
-        display: none;
+    .st2 .tx span{
+        font-size:.8rem;
+        color:#fff;
+        position:absolute;
+        top:150%;
+        left:5%;
+        width:70%;
+        transition:.5s;
+        opacity:0;
+    }
+    .st2 .tx span:hover{
+        opacity: 1;
     }
     
     .st3{
@@ -1256,4 +1266,4 @@ margin-bottom: -20%;
         width:10%;
     }
 }
-}
+
