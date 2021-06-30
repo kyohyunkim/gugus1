@@ -2,11 +2,13 @@
 @import url('common.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 @media (min-width: 1568px){
-*img{width:100%;}
-*{
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');    
+main img{width:100%;}
+main p, main a, main span, main td, main select{
     box-sizing: border-box;
-    font-size:14px;
     font-family:'Noto Sans KR';
+    font-size: 0.7vw;
 }
 main option{color:#222;}
 main span, main p, main td, main form{color:#222;}
@@ -17,10 +19,12 @@ main{
 .p-1{
     display:flex;
     justify-content: space-between;
+    width:100%;
 }
 .p-1 .i-1 {
     display:flex;
     justify-content: space-between;
+    width:100%;
 }
 .p-1 .i-1 img:nth-of-type(1){
     padding:0 2% 2% 0;
@@ -37,11 +41,15 @@ main{
 .p-1 .i-2 {
     display:flex;
     justify-content: space-between;
+    width:100%;
+}
+.p-1 .f-1{
+    width:65%;
 }
 .f-2{
-    padding:0 0 0 7%;
+    padding:0 0 0 5%;
     display: block;color:#222;
-    width:100%;
+    width:35%;
 }
 .f-2 div p:nth-of-type(1){
     padding:0 0 10% 0;color:#222; font-weight: bold;font-size: 18px;
@@ -65,6 +73,9 @@ main{
     justify-content: space-between;
     padding:3% 0 30% 0;
 }
+.f-2 .button a span:hover{
+    color:blueviolet;
+}
 select{
     width:100%; 
     color:#222;
@@ -84,4 +95,308 @@ select::-ms-expand {
 }
 .board td{
     border-bottom: 1px solid#dbdbdb;
+}
+}
+@media (min-width: 1305px) and (max-width: 1567px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+    main img{width:100%;}
+    main p, main a, main span, main td, main select{
+        box-sizing: border-box;
+        font-family:'Noto Sans KR';
+        font-size: 0.7vw;
+    }
+    main option{color:#222;}
+    main span, main p, main td, main form{color:#222;}
+    main{
+        padding:20% 0 0 0;
+    }
+    
+    .p-1{
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+    .p-1 .i-1 {
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+    .p-1 .i-1 img:nth-of-type(1){
+        padding:0 2% 2% 0;
+    }
+    .p-1 .i-1 img:nth-of-type(2){
+        padding:0 0 2% 0;
+    }
+    .p-1 .i-2 img:nth-of-type(1){
+        padding:0 2% 0 0;
+    }
+    .p-1 .i-2 img:nth-of-type(2){
+        padding:0 2% 0 0;
+    }
+    .p-1 .i-2 {
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+    .p-1 .f-1{
+        width:65%;
+    }
+    .f-2{
+        padding:0 0 0 5%;
+        display: block;color:#222;
+        width:35%;
+    }
+    .f-2 div p:nth-of-type(1){
+        padding:0 0 10% 0;color:#222; font-weight: bold;font-size: 18px;
+    }
+    .f-2 div p:nth-of-type(2){
+        padding:0 0 1% 0;color:#222;
+    }
+    .f-2 div p:nth-of-type(3){
+        padding:0 0 6% 0;color:#222; font-weight: bold;
+    }
+    .f-2 .p-4{
+        font-weight: bold;
+        margin:0 0 3% 0;
+    }
+    .f-2 .p-5{
+        margin:30% 0 6% 0;
+        font-weight: bold;
+    }
+    .f-2 .button{
+        display: flex;
+        justify-content: space-between;
+        padding:3% 0 30% 0;
+    }
+    .f-2 .button a span:hover{
+        color:blueviolet;
+    }
+    select{
+        width:100%; 
+        color:#222;
+        font-weight: bold;
+        font-size:14px;
+        border-width: 2px;
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    .board{
+        width:100%;
+        text-align: right;
+    }
+    .board .d1{
+        text-align: left;
+    }
+    .board td{
+        border-bottom: 1px solid#dbdbdb;
+    }
+}
+@media (min-width: 774px) and (max-width: 1304px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+    main img{width:100%;}
+    main p, main a, main span, main td, main select{
+        box-sizing: border-box;
+        font-family:'Noto Sans KR';
+        font-size: 0.7vw;
+    }
+    main option{color:#222;}
+    main span, main p, main td, main form{color:#222;}
+    main{
+        padding:30% 0 0 0;
+    }
+    
+    .p-1{
+        /* display:flex; */
+        /* justify-content: space-between; */
+        width:100%;
+    }
+    .p-1 .i-1 {
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+    .p-1 .i-1 span:nth-of-type(1){
+        /* padding:0 0 2% 0; */
+        width:100%;
+    }
+    .p-1 .i-1 span:nth-of-type(2){
+        /* padding:0 0 2% 0; */
+        width:100%;
+    }
+    .p-1 .i-2 span:nth-of-type(1){
+        /* padding:0 2% 0 0; */
+        width:100%;
+    }
+    .p-1 .i-2 span:nth-of-type(2){
+        /* padding:0 2% 0 0; */
+        width:100%;
+    }
+    .p-1 .i-2 span:nth-of-type(3){
+        width:100%;
+    }
+    .p-1 .i-2 {
+        display:flex;
+        /* justify-content: space-between; */
+        width:100%;
+    }
+    .p-1 .f-1{
+        width:100%;
+    }
+    .f-2{
+        /* padding:0 0 0 5%; */
+        margin:0 auto;
+        display: block;color:#222;
+        width:70%;
+    }
+    .f-2 div p:nth-of-type(1){
+        padding:10% 0 5% 0;color:#222; font-weight: bold;font-size: 18px;
+    }
+    .f-2 div p:nth-of-type(2){
+        padding:0 0 1% 0;color:#222;
+    }
+    .f-2 div p:nth-of-type(3){
+        padding:0 0 6% 0;color:#222; font-weight: bold;
+    }
+    .f-2 .p-4{
+        font-weight: bold;
+        margin:0 0 3% 0;
+    }
+    .f-2 .p-5{
+        margin:30% 0 6% 0;
+        font-weight: bold;
+    }
+    .f-2 .button{
+        display: flex;
+        justify-content: space-between;
+        padding:3% 0 30% 0;
+    }
+    .f-2 .button a span:hover{
+        color:blueviolet;
+    }
+    select{
+        width:100%; 
+        color:#222;
+        font-weight: bold;
+        font-size:14px;
+        border-width: 2px;
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    .board{
+        width:100%;
+        text-align: right;
+    }
+    .board .d1{
+        text-align: left;
+    }
+    .board td{
+        border-bottom: 1px solid#dbdbdb;
+    }
+}
+@media (max-width: 773px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+    main img{width:100%;}
+    main p, main a, main span, main td, main select{
+        box-sizing: border-box;
+        font-family:'Noto Sans KR';
+        font-size: 0.7vw;
+    }
+    main option{color:#222;}
+    main span, main p, main td, main form{color:#222;}
+    main{
+        padding:30% 0 0 0;
+    }
+    
+    .p-1{
+        /* display:flex; */
+        /* justify-content: space-between; */
+        width:100%;
+    }
+    .p-1 .i-1 {
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+    .p-1 .i-1 span:nth-of-type(1){
+        /* padding:0 0 2% 0; */
+        width:100%;
+    }
+    .p-1 .i-1 span:nth-of-type(2){
+        /* padding:0 0 2% 0; */
+        width:100%;
+    }
+    .p-1 .i-2 span:nth-of-type(1){
+        /* padding:0 2% 0 0; */
+        width:100%;
+    }
+    .p-1 .i-2 span:nth-of-type(2){
+        /* padding:0 2% 0 0; */
+        width:100%;
+    }
+    .p-1 .i-2 span:nth-of-type(3){
+        width:100%;
+    }
+    .p-1 .i-2 {
+        display:flex;
+        /* justify-content: space-between; */
+        width:100%;
+    }
+    .p-1 .f-1{
+        width:100%;
+    }
+    .f-2{
+        padding:0 0 0 5%;
+        display: block;color:#222;
+        width:95%;
+    }
+    .f-2 div p:nth-of-type(1){
+        padding:10% 0 5% 0;color:#222; font-weight: bold;font-size: 18px;
+    }
+    .f-2 div p:nth-of-type(2){
+        padding:0 0 1% 0;color:#222;
+    }
+    .f-2 div p:nth-of-type(3){
+        padding:0 0 6% 0;color:#222; font-weight: bold;
+    }
+    .f-2 .p-4{
+        font-weight: bold;
+        margin:0 0 3% 0;
+    }
+    .f-2 .p-5{
+        margin:30% 0 6% 0;
+        font-weight: bold;
+    }
+    .f-2 .button{
+        display: flex;
+        justify-content: space-between;
+        padding:3% 0 30% 0;
+    }
+    .f-2 .button a span:hover{
+        color:blueviolet;
+    }
+    select{
+        width:100%; 
+        color:#222;
+        font-weight: bold;
+        font-size:14px;
+        border-width: 2px;
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    .board{
+        width:100%;
+        text-align: right;
+    }
+    .board .d1{
+        text-align: left;
+    }
+    .board td{
+        border-bottom: 1px solid#dbdbdb;
+    }
 }

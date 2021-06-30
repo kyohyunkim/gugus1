@@ -1,11 +1,14 @@
 @charset 'utf-8';
 @import url('common.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
-*img{width:100%;}
-*{
+@media (min-width: 1568px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+main img{width:100%;}
+main p, main a, main span, main td, main select{
     box-sizing: border-box;
-    font-size:14px;
     font-family:'Noto Sans KR';
+    font-size: 0.7vw;
 }
 main span, main p, main td, main form, main li{color:#222;}
 main{
@@ -54,13 +57,15 @@ main{
 }
 
 .t-1 p:nth-of-type(1){
-    font-size: 1.7rem;
+    font-size: 1.4vw;
     font-weight: bold;
+    width:80%;
 }
 .t-1 p:nth-of-type(2){
-    font-size: 5rem;
+    font-size: 4.2vw;
     font-weight: bold;
     padding:0 0 6% 0;
+    width:90%;
 }
 .t-1 p:nth-of-type(3){
     font-size: 1.3rem;
@@ -78,7 +83,10 @@ main{
 .t-1 .button{
     display: flex;
     justify-content: space-between;
-    width:73%;
+    width:80%;
+}
+.t-1 .button a span:hover{
+    color:blueviolet;
 }
 .t-1 li{
     font-weight: bold;
@@ -90,4 +98,325 @@ main{
 .t-1 table{
     border-bottom: 1px solid#dbdbdb;
     width:100%;
+}
+}
+@media (min-width: 1305px) and (max-width: 1567px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+main img{width:100%;}
+main p, main li, main a, main span, main td, main select{
+    box-sizing: border-box;
+    font-family:'Noto Sans KR';
+    font-size: 1vw;
+}
+main span, main p, main td, main form, main li{color:#222;}
+main{
+    padding:300px 0 0 0;
+}
+
+.f-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.i-1{
+    position: relative;
+    width:60%;
+    text-align: center;
+}
+.i-1 div:nth-of-type(1){
+    width:100%;
+}
+.i-1 div:nth-of-type(2){
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+.i-1 div img{width:100%;}
+.ind{
+    display: flex;
+    justify-content: space-between;
+    padding:0 40% 3% 40%;
+}
+.i-1 .ind a div{
+    border:1px solid#222;
+    border-radius: 100%;
+    width:25px; height: 25px;
+    font-size: 0;
+}
+.i-1 .ind .active div{
+    background-color: #222;
+    border-radius: 100%;
+    width:25px; height: 25px;
+    font-size: 0;
+}
+.t-1{
+    width:35%;
+}
+
+.t-1 p:nth-of-type(1){
+    font-size: 1.4vw;
+    font-weight: bold;
+    width:80%;
+}
+.t-1 p:nth-of-type(2){
+    font-size: 4.2vw;
+    font-weight: bold;
+    padding:0 0 6% 0;
+    width:90%;
+}
+.t-1 p:nth-of-type(3){
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:20% 0 3% 0;
+}
+.t-1 p:nth-of-type(4){
+    font-weight: bold;
+    padding:4% 0 4% 0
+}
+.t-1 p:nth-of-type(5){
+    font-weight: bold;
+    padding:0 0 4% 0
+}
+.t-1 .button{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+}
+.t-1 .button a span:hover{
+    color:blueviolet;
+}
+.t-1 li{
+    font-weight: bold;
+}
+.t-1 li:nth-of-type(1){
+    font-weight: bold;
+    padding:3% 0 0 0;
+}
+.t-1 table{
+    border-bottom: 1px solid#dbdbdb;
+    width:100%;
+}
+}
+@media (min-width: 774px) and (max-width: 1304px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+main img{width:100%;}
+main p, main li, main a, main span, main td, main select{
+    box-sizing: border-box;
+    font-family:'Noto Sans KR';
+    font-size: 2vw;
+}
+main span, main p, main td, main form, main li{color:#222;}
+main{
+    padding:300px 0 0 0;
+}
+
+.f-1{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.i-1{
+    position: relative;
+    width:100%;
+    text-align: center;
+}
+.i-1 div:nth-of-type(1){
+    width:100%;
+}
+.i-1 div:nth-of-type(2){
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+.i-1 div img{width:100%;}
+.ind{
+    display: flex;
+    justify-content: space-between;
+    padding:0 40% 3% 40%;
+}
+.i-1 .ind a div{
+    border:1px solid#222;
+    border-radius: 100%;
+    width:25px; height: 25px;
+    font-size: 0;
+}
+.i-1 .ind .active div{
+    background-color: #222;
+    border-radius: 100%;
+    width:25px; height: 25px;
+    font-size: 0;
+}
+.t-1{
+    width:75%;
+    /* margin:0 auto; */
+    margin-top:10%;
+}
+
+.t-1 p:nth-of-type(1){
+    font-size: 3.4vw;
+    font-weight: bold;
+    width:100%;
+}
+.t-1 p:nth-of-type(2){
+    font-size: 10vw;
+    font-weight: bold;
+    padding:0 0 6% 0;
+    width:100%;
+}
+.t-1 p:nth-of-type(3){
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:20% 0 3% 0;
+}
+.t-1 p:nth-of-type(4){
+    font-weight: bold;
+    padding:4% 0 4% 0
+}
+.t-1 p:nth-of-type(5){
+    font-weight: bold;
+    padding:0 0 4% 0
+}
+.t-1 .button{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+}
+.t-1 .button a span:hover{
+    color:blueviolet;
+}
+.t-1 .button a span{
+    font-size:2vw;
+}
+.t-1 li{
+    font-weight: bold;
+}
+.t-1 li:nth-of-type(1){
+    font-weight: bold;
+    padding:3% 0 0 0;
+}
+.t-1 table{
+    border-bottom: 1px solid#dbdbdb;
+    width:100%;
+}
+}
+
+@media (max-width: 773px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+main img{width:100%;}
+main p, main li, main a, main span, main td, main select{
+    box-sizing: border-box;
+    font-family:'Noto Sans KR';
+    font-size: 2vw;
+}
+main span, main p, main td, main form, main li{color:#222;}
+main{
+    padding:20% 0 0 0;
+}
+
+.f-1{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.i-1{
+    position: relative;
+    width:100%;
+    text-align: center;
+}
+.i-1 div:nth-of-type(1){
+    width:100%;
+}
+.i-1 div:nth-of-type(2){
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+.i-1 div img{width:100%;}
+.ind{
+    display: flex;
+    justify-content: space-between;
+    padding:0 40% 3% 40%;
+}
+.i-1 .ind a div{
+    border:1px solid#222;
+    border-radius: 100%;
+    width:17px; height: 17px;
+    font-size: 0;
+}
+.i-1 .ind .active div{
+    background-color: #222;
+    border-radius: 100%;
+    width:17px; height: 17px;
+    font-size: 0;
+}
+.t-1{
+    width:90%;
+    /* margin:0 auto; */
+    margin-top:10%;
+    margin-left: 5%;
+}
+
+.t-1 p:nth-of-type(1){
+    font-size: 3.3vw;
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+}
+.t-1 p:nth-of-type(2){
+    font-size: 10vw;
+    font-weight: bold;
+    padding:0 0 6% 0;
+    width:100%;
+    text-align: center;s
+}
+.t-1 p:nth-of-type(3){
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:10% 0 3% 0;
+}
+.t-1 p:nth-of-type(4){
+    font-weight: bold;
+    padding:4% 0 4% 0
+}
+.t-1 p:nth-of-type(5){
+    font-weight: bold;
+    padding:0 0 4% 0
+}
+.t-1 .button{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    width:100%;
+    margin-top:5%;
+    text-align: center;
+}
+.t-1 .button a span{
+    border:1px solid#222;
+    padding:2px 20px;
+    width:100%;
+}
+.t-1 .button a span:hover{
+    color:#fff;
+    background-color: blueviolet;
+    border-color:blueviolet;
+}
+.t-1 .button a span{
+    font-size:2vw;
+}
+.t-1 li{
+    font-weight: bold;
+}
+.t-1 li:nth-of-type(1){
+    font-weight: bold;
+    padding:3% 0 0 0;
+}
+.t-1 table{
+    border-bottom: 1px solid#dbdbdb;
+    width:100%;
+}
 }
