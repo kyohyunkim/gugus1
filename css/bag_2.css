@@ -1,5 +1,8 @@
 @charset 'utf-8';
 @import url('common.css');
+@media (min-width: 1568px){
+    @import url('common.css');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 *img{width:100%;}
 main{padding:300px 0 0 0;}
 main p,main td,main form,main div,main label,main span,main option,main a{color:#222;}
@@ -80,4 +83,272 @@ select::-ms-expand {
 }
 .m-2 .for a{
     font-size: 0.8rem;
+}
+}
+@media (min-width: 1305px) and (max-width: 1567px){
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+    *img{width:100%;}
+main{padding:300px 0 0 0;}
+main p,main td,main form,main div,main label,main span,main option,main a{color:#222;}
+
+
+.h-1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.m-1{
+    display: flex;
+    justify-content: space-between;
+    padding:7% 0 0 0;
+    width:100%;
+}
+.i-1{
+    background-image: url('img/bag_1.jpg');
+    background-size:contain;
+    width:290px;
+    height: 290px;
+}
+.i-1 div{
+    text-align: right;
+    padding:0 4% 0 0;
+}
+.i-1 div a{
+    font-size: 1.5rem;
+}
+.m-1 .i-2{
+    margin-right: auto;
+    padding:0 0 0 2%;
+}
+.m-1 .i-2 div:nth-of-type(1){
+    font-weight: bold;
+    padding:0 0 5% 0;
+}
+.m-1 .i-2 div:nth-of-type(2){
+    font-size: 0.8rem;
+    padding:0 0 5% 0;
+}
+select{
+    width:100%; 
+    color:#222;
+    font-weight: bold;
+    border: 2px solid#222;
+    font-size: 0.5rem;
+    height: 7%;
+}
+select::-ms-expand {
+    display: none;
+}
+.m-1 .i-3{
+    display: flex;
+    justify-content: space-between;
+}
+.m-1 .i-3 div a{
+    font-size: 0.8rem;
+}
+.m-1 .i-3 .my a{
+    margin-top:-1%;
+    font-size: 1rem;
+}
+.m-1 .i-3 span{
+    opacity: 0;
+}
+.m-2{
+    padding:3% 0 0 0;
+}
+.m-2 div{
+    font-size: 0.8rem;
+    padding:0 0 1% 0;
+}
+.m-2 div:nth-of-type(3){
+    font-weight: bold;
+}
+.m-2 .for{
+    padding:2% 0 0 0;
+}
+.m-2 .for a{
+    font-size: 0.8rem;
+}
+}
+@media (min-width: 774px) and (max-width: 1304px){
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+    *img{width:100%;}
+main{padding:300px 0 0 0;}
+main p,main td,main form,main div,main label,main span,main option,main a{color:#222;}
+
+
+.h-1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.m-1{
+    display: flex;
+    justify-content: space-between;
+    padding:7% 0 0 0;
+    width:100%;
+}
+.i-1{
+    background-image: url('img/bag_1.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:290px;
+    height: 290px;
+}
+.i-1 div{
+    text-align: right;
+    padding:0 4% 0 0;
+}
+.i-1 div a{
+    font-size: 1.5rem;
+}
+.m-1 .i-2{
+    margin-right: auto;
+    padding:0 0 0 2%;
+    width:40%;
+}
+.m-1 .i-2 div:nth-of-type(1){
+    font-weight: bold;
+    padding:0 0 5% 0;
+}
+.m-1 .i-2 div:nth-of-type(2){
+    font-size: 0.8rem;
+    padding:0 0 5% 0;
+}
+select{
+    width:70%; 
+    color:#222;
+    font-weight: bold;
+    border: 2px solid#222;
+    font-size: 0.5rem;
+    height: 7%;
+}
+select::-ms-expand {
+    display: none;
+}
+.m-1 .i-3{
+    display: flex;
+    justify-content: space-between;
+    width:20%;
+}
+.m-1 .i-3 div a{
+    font-size: 0.8rem;
+}
+.m-1 .i-3 .my a{
+    margin-top:-1%;
+    font-size: 1rem;
+}
+.m-1 .i-3 span{
+    opacity: 0;
+    font-size:0.5vw;
+}
+.m-2{
+    padding:3% 0 0 0;
+}
+.m-2 div{
+    font-size: 0.8rem;
+    padding:0 0 1% 0;
+}
+.m-2 div:nth-of-type(3){
+    font-weight: bold;
+}
+.m-2 .for{
+    padding:2% 0 0 0;
+}
+.m-2 .for a{
+    font-size: 0.8rem;
+}
+}
+@media (max-width: 773px){
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+    *img{width:100%;}
+main{padding:300px 0 0 0;}
+main p,main td,main form,main div,main label,main span,main option,main a{color:#222;}
+
+
+.h-1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin:0 5%;
+}
+.m-1{
+    /* display: flex; */
+    justify-content: space-between;
+    padding:7% 0 0 0;
+    width:100%;
+}
+.i-1{
+    background-image: url('img/bag_1.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:290px;
+    height: 290px;
+    margin:0 5%;
+}
+.i-1 div{
+    text-align: right;
+    padding:0 4% 0 0;
+}
+.i-1 div a{
+    font-size: 1.5rem;
+}
+.m-1 .i-2{
+    margin-right: auto;
+    padding:2% 0 0 0;
+    width:80%;
+    margin:0 0 0 5%;
+}
+.m-1 .i-2 div:nth-of-type(1){
+    font-weight: bold;
+    padding:3% 0 5% 0;
+    font-size:18px;
+}
+.m-1 .i-2 div:nth-of-type(2){
+    font-size: 0.8rem;
+    padding:0 0 5% 0;
+}
+select{
+    width:285px; 
+    color:#222;
+    font-weight: bold;
+    border: 2px solid#222;
+    font-size: 0.5rem;
+    height: 7%;
+}
+select::-ms-expand {
+    display: none;
+}
+.m-1 .i-3{
+    display: flex;
+    justify-content: space-between;
+    width:280px;
+    margin:5% 0 0 5%;
+}
+.m-1 .i-3 div a{
+    font-size: 0.8rem;
+}
+.m-1 .i-3 .my a{
+    margin-top:-1%;
+    font-size: 1rem;
+}
+.m-1 .i-3 span{
+    opacity: 0;
+    font-size:0.5vw;
+}
+.m-2{
+    padding:5% 0 0 0;
+    margin:0 auto;
+    margin:0 5%;
+}
+.m-2 div{
+    font-size: 0.8rem;
+    padding:0 0 2% 0;
+}
+.m-2 div:nth-of-type(3){
+    font-weight: bold;
+}
+.m-2 .for{
+    padding:2% 0 0 0;
+}
+.m-2 .for a{
+    font-size: 0.8rem;
+}
 }
