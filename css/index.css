@@ -1174,15 +1174,15 @@ margin-bottom: -20%;
          padding-right: 6%;
         
     }
-    .items figure img{
+    /* .items figure img{
         width:100%; 
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
         transition:.5s;
-    }
-    .items figure img:hover{
+    } */
+    /* .items figure img:hover{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
         transform: translate(-20px, -20px);
-    }
+    } */
     
      @keyframes a4{ 
         0%{transform:translateX(0%);}
