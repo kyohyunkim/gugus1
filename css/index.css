@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('common.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 @media (min-width: 1568px){
@@ -69,7 +69,7 @@
 
 .a3{
     position: relative;
-    margin:90px 0;
+    margin:0 0 90px 0;
 }
 .slide{
     overflow: hidden;
@@ -95,7 +95,7 @@
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     transition:.5s;
 }
-.items figure img:hover{
+.items figure:hover img{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -259,11 +259,11 @@
 .st1{
     width:23%
 }
-.st1 a img{
+.st1 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
 }
-.st1 a img:hover{
+.st1 img:hover{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -289,11 +289,11 @@ margin-bottom: -20%;
     margin-top:10%;
     width:23%
 }
-.st2 a img{
+.st2 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
 }
-.st2 a img:hover{
+.st2 img:hover{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -311,11 +311,11 @@ margin-bottom: -20%;
 .st3{
     width:23%
 }
-.st3 a img{
+.st3 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
 }
-.st3 a img:hover{
+.st3 img:hover{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -335,11 +335,11 @@ margin-bottom: -20%;
     margin-top:10%;
     width:23%
 }
-.st4 a img{
+.st4 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
 }
-.st4 a img:hover{
+.st4 img:hover{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -455,7 +455,7 @@ margin-bottom: -20%;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     transition:.5s;
 }
-.items figure img:hover{
+.items figure:hover img{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -649,11 +649,11 @@ margin-bottom: -20%;
     margin-top:10%;
     width:23%
 }
-.st2 a img{
+.st2 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
 }
-.st2 a img:hover{
+.st2 img:hover{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -671,11 +671,11 @@ margin-bottom: -20%;
 .st3{
     width:23%
 }
-.st3 a img{
+.st3 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
 }
-.st3 a img:hover{
+.st3 img:hover{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -695,11 +695,11 @@ margin-bottom: -20%;
     margin-top:10%;
     width:23%
 }
-.st4 a img{
+.st4 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
 }
-.st4 a img:hover{
+.st4 img:hover{
     box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
     transform: translate(-20px, -20px);
 }
@@ -815,7 +815,7 @@ margin-bottom: -20%;
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
         transition:.5s;
     }
-    .items figure img:hover{
+    .items figure:hover img{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
         transform: translate(-20px, -20px);
     }
@@ -980,11 +980,11 @@ margin-bottom: -20%;
     .st1{
         width:23%
     }
-    .st1 a img{
+    .st1 img{
         transition:.5s;
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     }
-    .st1 a img:hover{
+    .st1 img:hover{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
         transform: translate(-20px, -20px);
     }
@@ -1010,11 +1010,11 @@ margin-bottom: -20%;
         margin-top:10%;
         width:23%
     }
-    .st2 a img{
+    .st2 img{
         transition:.5s;
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     }
-    .st2 a img:hover{
+    .st2 img:hover{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
         transform: translate(-20px, -20px);
     }
@@ -1032,11 +1032,11 @@ margin-bottom: -20%;
     .st3{
         width:23%
     }
-    .st3 a img{
+    .st3 img{
         transition:.5s;
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     }
-    .st3 a img:hover{
+    .st3 img:hover{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
         transform: translate(-20px, -20px);
     }
@@ -1056,11 +1056,11 @@ margin-bottom: -20%;
         margin-top:10%;
         width:23%
     }
-    .st4 a img{
+    .st4 img{
         transition:.5s;
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     }
-    .st4 a img:hover{
+    .st4 img:hover{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
         transform: translate(-20px, -20px);
     }
@@ -1153,7 +1153,7 @@ margin-bottom: -20%;
     
     .a3{
         position: relative;
-        margin:90px 0;
+        margin:0 0 90px 0;
     }
     .slide{
         overflow: hidden;
@@ -1205,21 +1205,21 @@ margin-bottom: -20%;
         margin:0 0px;
         display: block;
     }
-    .a3-sub .sp1{margin:0 -14%;}
-    .a3-sub .sp2{margin:0 -14%;}
-    .a3-sub .sp3{margin:0 -14%;}
+    .a3-sub .sp1{margin:0 -2%;}
+    .a3-sub .sp2{margin:0 -2%;}
+    .a3-sub .sp3{margin:0 -2%;}
     
     .a3-sub span{
         position:absolute;
         left:0; bottom:30px;
         color:#fff;
-        font-size:3vw;
-        opacity:0;
+        font-size:6vw;
+        /* opacity:0; */
         transition:1s;
         text-align:center;
         width:100%;
     }
-    .a3-sub:hover span{opacity: 1;}
+    /* .a3-sub:hover span{opacity: 1;} */
     
     
     .a3-sub-btn{
@@ -1311,18 +1311,19 @@ margin-bottom: -20%;
         position:absolute;
         left:0; bottom:50%;
         transform:translateY(50%);
-        color:#222;
+        color:#fff;
         font-size:7vw;
-        opacity:0;
+        /* opacity:0; */
         transition:1s;
         text-align:center;
         width:100%;
+        display: none;
     }
-    .a5-sub:hover span{opacity: 1;}
+    /* .a5-sub:hover span{opacity: 1;} */
     
-    .a5-sub .sp4{padding-right:7%;}
-    .a5-sub .sp5{padding-left:3%;}
-    .a5-sub .sp6{padding-left:10%;}
+    /* .a5-sub .sp4{{margin:0 -14% 5% -14%;} */
+    /* .a5-sub .sp5{{margin:0 -14% 5% -14%;} */
+    /* .a5-sub .sp6{{margin:0 -14% 5% -14%;} */
     
     .a5-sub-btn{
         position:absolute;
@@ -1365,11 +1366,11 @@ margin-bottom: -20%;
     .st1{
         width:47%;  
     }
-    .st1 a img{
+    .st1 img{
         transition:.5s;
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     }
-    .st1 a img:hover{
+    .st1:hover img{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
         transform: translate(-10px, -10px);
     }
@@ -1393,24 +1394,27 @@ margin-bottom: -20%;
         font-size:.7rem;
         color:#fff;
         position:absolute;
-        bottom:150%;
-        left:5%;
+        bottom:150px;
+        left:2%;
         width:70%; height: 50px;
         transition:.5s;
         opacity:0;
+    }
+    .st1:hover span{
+        opacity: 1;
     }
 
     .st2{
         margin-top:0%;
         width:47%;
     }
-    .st2 a img{
+    .st2 img{
         transition:.5s;
         box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     }
-    .st2 a img:hover{
+    .st2:hover img{
         box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
-        transform: translate(-20px, -20px);
+        transform: translate(-10px, -10px);
     }
     .st2 .tx{margin-top:5%;}
     .st2 big{
@@ -1422,13 +1426,14 @@ margin-bottom: -20%;
         font-size:.8rem;
         color:#fff;
         position:absolute;
-        top:150%;
-        left:5%;
+        top:80px;
+        left:2%;
         width:70%;
         transition:.5s;
         opacity:0;
+        z-index: 3;
     }
-    .st2 .tx span:hover{
+    .st2:hover span{
         opacity: 1;
     }
     

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg">
+        <ul>           
+            <li>
+                <a href="#">gugus</a>  
+                <div class="view">
+                    <ul>
+                        <li>
+                            <a href="#">소개</a>
+                        </li>
+                        <li>
+                            <a href="#">소개</a>
+                        </li>
+                        <li>
+                            <a href="#">소개</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <style>
+        .bg{
+            position:relative;
+        }
+        li {
+           display: list-item;
+           text-align: -webkit-match-parent;
+        }
+        .bg > ul > li > a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    width: 0%;
+    height: 2px;
+    background: green;
+    transform: translateX(-50%);
+    transition: all .4s;
+        }
+    .view {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+    padding-top: 30px;
+    transform: translateY(100%) scaleY(0);
+    transform-origin: 0px 0px;
+    transition: all 0.5s;
+}
+ul{
+    display: block;
+}
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+    </style>
+</body>
+</html>
