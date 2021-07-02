@@ -419,8 +419,8 @@ select::-ms-expand {
         color:#222;
         font-weight: bold;
         border-width: 2px;
-        height:40px;
-        font-size: 1rem;
+        height:20px;
+        font-size: .5rem;
     }
     select::-ms-expand {
         display: none;
