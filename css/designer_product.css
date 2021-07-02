@@ -314,7 +314,7 @@ select::-ms-expand {
     @import url('common.css');
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
     main img{width:100%;}
-    main p, main a, main span, main td, main select{
+    main p, main a, main span, main td{
         box-sizing: border-box;
         font-family:'Noto Sans KR';
         font-size: 0.7vw;
