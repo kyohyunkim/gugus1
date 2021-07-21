@@ -22,10 +22,13 @@ main{
     display: flex;
     justify-content: space-between;
 }
+.t-2 a{
+    cursor: pointer;
+}
 .t-2 span{
     margin:0px 20px 0 0;
 }
-.t-2 span{
+.t-2 a span{
     color:#222;
     font-size:1.5rem;
     font-weight: bold;
@@ -34,7 +37,7 @@ main{
     border: solid 2px #222;
     border-radius: 17px;
 }
-.t-2 span:hover{
+.t-2 a span:hover{
     color:#fff;
     font-size:1.5rem;
     font-weight: bold;
@@ -43,6 +46,16 @@ main{
     border: solid 2px #222;
     border-radius: 17px;
 }
+.t-2 a span.active{
+    color:#fff;
+    font-size:1.5rem;
+    font-weight: bold;
+    background-color:#222;
+    padding:1px 5px 2px 5px;
+    border: solid 2px #222;
+    border-radius: 17px;
+}
+
 .t-2 div b{
     font-size:1rem;
     margin-right:10px;   
@@ -124,6 +137,12 @@ main{
 .bot a{
     color:#222;
     margin-right:5%;
+}
+.bot a.active{
+    color:#fff;
+    background-color: blueviolet;
+    padding:5px 15px;
+    border-radius: 40px;
 }
 .bot a:hover{
     color:#fff;

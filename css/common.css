@@ -22,6 +22,7 @@ ul,ol{
     margin:0;
     padding:0;
 }
+footer span{color:#fff}
 h1,h2,h3,h4,h5,h6,figure,p{margin:0;}
 img{vertical-align: top;}
 a{text-decoration: none;}
@@ -114,7 +115,91 @@ header{
 .head > nav > a:hover + div{
     display:flex;
 }
-  
+.in-menu01{
+    margin-top:30px;
+    width:100%;
+    height: 500px;
+    background-color: #fff;
+    display: none;
+}
+.in-menu01.active{
+    display: block;
+}
+.con1::before{
+    content: '▲';
+    color:blueviolet;
+    position:absolute;
+    top:24.5%; left:17%;
+}
+.in-menu01 hr{
+    border-top: 1px solid#8a2be2;
+}
+.in-menu01 .gnb{
+    margin-top:30px;
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+.gnb .list  li a{
+    color:#222;
+    margin-bottom:5px;
+    font-size: 1.3vw;
+    position: relative;  
+}
+.gnb .list  li a:hover{
+    color:blueviolet;
+}
+.gnb .list li a:before{
+    content : '';
+    position: absolute;  
+    background-color: blueviolet;
+    height: 1px;
+    width : 0;
+    bottom: -3px;         
+    transition: 0.5s;    
+
+}
+
+.gnb .list li a:hover:before{ 
+    width : 100%;
+}
+
+.gnb article{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+
+}
+.gnb article img:hover{
+    opacity: 0.7;
+}
+.gnb article li div{
+    margin-bottom: 20px;
+    color:#222;
+    font-weight:bold;
+    font-size: 1.5vw;
+}
+.gnb article li {
+    margin:0 0 0 30px;
+}
+.gnb article li p{
+    color:#222;
+    font-weight: bold;
+    margin-top:10px;
+}
+.gnb article li span{
+    font-size: 0.7vw;
+    color:#222;
+}
+.me2{
+    opacity: 0;
+}
+
 .h h1{
     font-size:35px;
     font-weight:bold;
@@ -158,6 +243,9 @@ nav a{
     font-weight:bold;
     color:#222;
 }
+.menu .in a div.active{
+    color:blueviolet;
+}
 
 .menu .in a div:hover:nth-of-type(1){
     color:blueviolet;
@@ -186,7 +274,7 @@ nav a{
 .serch input{
     outline:none;
     border: none;
-    width:70%; height:80%;
+    width:65%; height:80%;
     margin-top:1%;  
 }
 .serch input::placeholder{color:#dbdbdb;}
@@ -201,10 +289,29 @@ nav a{
     position:fixed;       
     width:100%;
 }
+aside img{
+    width:50%;
+    transform: rotate(180deg);
+}
+aside{
+    position: fixed;
+    right: 3%; bottom: 7%;  
+    color: #222;
+    padding: 20px;
+    display: none;
+    text-align: center;
+}
+aside p{
+    color:#222;
+    font-weight: lighter;
+}
+aside.active{
+    display: block;
+}
  /* header  */
 
  /* footer  */
-.footer{
+footer{
     margin-top: 20%;
     padding:10px 16%;
     background-color: #222;
