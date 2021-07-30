@@ -1,0 +1,567 @@
+{
+    "work1":[
+        {
+            "link":"designer.html",
+            "img": "img/south2.jpg",
+            "text":"SOUTH2WEST8"
+        },
+        {
+            "link":"designer.html",
+            "img": "img/jieda.jpg",
+            "text":"JIEDA"
+        },  
+        {
+            "link":"designer.html",
+            "img": "img/needles.jpg",
+            "text":"NEEDLES"
+        }, 
+        {
+            "link":"designer.html",
+            "img": "img/enga1.jpg",
+            "text":"ENGINEERED GARMENTS"
+        }, 
+        {
+            "link":"designer.html",
+            "img": "img/kaptain.jpg",
+            "text":"KAPTAIN SUNSHINE"
+        }, 
+        {
+            "link":"designer.html",
+            "img": "img/calol1.jpg",
+            "text":"CAL O LINE"
+        }, 
+        {
+            "link":"designer.html",
+            "img": "img/aie1.jpg",
+            "text":"AIE"
+        }, 
+        {
+            "link":"designer.html",
+            "img": "img/bad1.jpg",
+            "text":"BAD.J.W.FORD"
+        }, 
+        {
+            "link":"designer.html",
+            "img": "img/nh1.jpg",
+            "text":"N.HOOLYWOOD"
+        }  
+    ],
+    "work2":[
+        {
+            "link":"seconhands.html",
+            "img": "img/supreme.jpg",
+            "name":"Supreme",
+            "detail":"슈프림 노스페이스 핑크 서밋 백팩",
+            "price":"269,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/kiko.jpg",
+            "name":"Kiko Kostadinov",
+            "detail":"키코코스타디노브 젤버즈2 카라멜 260",
+            "price":"500,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/kang.jpg",
+            "name":"Kanghyuk",
+            "detail":"[L] 강혁 에어백 트러커 자켓",
+            "price":"1,450,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/poter1.jpg",
+            "name":"Poter",
+            "detail":"Porter tanker waistbag",
+            "price":"80,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/under1.jpg",
+            "name":"Undercover",
+            "detail":"언더커버 x GU -레터링 더비슈즈",
+            "price":"140,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/vivi1.jpg",
+            "name":"Vivienne westwood",
+            "detail":"Vivienne westwood backpack",
+            "price":"495,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/maison1.jpg",
+            "name":"Maison margiela",
+            "detail":"마르지엘라 super bleach wool트러커 자켓",
+            "price":"950,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/dior1.jpg",
+            "name":"Dior",
+            "detail":"디올 x 숀스투시 펜던트 목걸이",
+            "price":"750,000원"
+        },
+        {
+            "link":"seconhands.html",
+            "img": "img/991.jpg",
+            "name":"99%is",
+            "detail":"[4]99%IS 리플렉티브 자켓",
+            "price":"490,000원"
+        }
+    ],
+    "work3":[
+        {
+            "img": "img/style1.jpg",
+            "name":"STYLE #01",
+            "detail":"스타일링 가이드 / HUMAN MADE,WTAPS,OLDPARK, SOUTH2 WEST8,ENGINEERED GARMENTS,BLACK EYE PATCH"
+        },
+        {
+            "img": "img/style2.jpg",
+            "name":"STYLE #02",
+            "detail":"스타일링 가이드 / DESCENDANT,WTAPS,HUMAN MADE,ENGINEERED GARMENTS,NEIGHBORHOOD"
+        },
+        {
+            "img": "img/style3.jpg",
+            "name":"STYLE #03",
+            "detail":"스타일링 가이드 / ENGINEERED GARMENTS,NEEDLES,HUMAN MADE,DESCENDANT,ARIES,SOUTH2 WEST8"
+        },
+        {
+            "img": "img/style4.jpg",
+            "name":"STYLE #04",
+            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+        },
+        {
+            "img": "img/style1.jpg",
+            "name":"STYLE #05",
+            "detail":"스타일링 가이드 / HUMAN MADE,WTAPS,OLDPARK, SOUTH2 WEST8,ENGINEERED GARMENTS,BLACK EYE PATCH"
+        },
+        {
+            "img": "img/style2.jpg",
+            "name":"STYLE #06",
+            "detail":"스타일링 가이드 / DESCENDANT,WTAPS,HUMAN MADE,ENGINEERED GARMENTS,NEIGHBORHOOD"
+        },
+        {
+            "img": "img/style3.jpg",
+            "name":"STYLE #07",
+            "detail":"스타일링 가이드 / ENGINEERED GARMENTS,NEEDLES,HUMAN MADE,DESCENDANT,ARIES,SOUTH2 WEST8"
+        },
+        {
+            "img": "img/style4.jpg",
+            "name":"STYLE #08",
+            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+        },
+        {
+            "img": "img/style1.jpg",
+            "name":"STYLE #09",
+            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+        },
+        {
+            "img": "img/style2.jpg",
+            "name":"STYLE #10",
+            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+        },
+        {
+            "img": "img/style3.jpg",
+            "name":"STYLE #11",
+            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+        },
+        {
+            "img": "img/style4.jpg",
+            "name":"STYLE #12",
+            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+        }
+    ],
+    "work4":[
+        {
+            "link":"designer_product.html",
+            "img1":"img/needles1.jpg",
+            "img2":"img/needles1-1.jpg",
+            "name":"NEEDLES",
+            "detail":"BOOT-CUT STUDENT PANT (PATCHWORK)",
+            "price":"315,000원",
+            "type": "bottom",
+            "type2": "all",
+            "sub_img1":"design_img/need1-1.jpg",
+            "sub_img2":"design_img/need1-2.jpg",
+            "sub_img3":"design_img/need1-3.jpg",
+            "sub_img4":"design_img/need1-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"",
+            "itemCode":"1"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/needles2.jpg",
+            "img2":"img/needles2-1.jpg",
+            "name":"NEEDLES",
+            "detail":"TRACK HOODY - C/PE VELOUR (GREEN)",
+            "price":"388,000원",
+            "type": "top",
+            "type2": "all",
+            "sub_img1":"design_img/need2-1.jpg",
+            "sub_img2":"design_img/need2-2.jpg",
+            "sub_img3":"design_img/need2-3.jpg",
+            "sub_img4":"design_img/need2-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"L",
+            "itemCode":"2"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/needles3.jpg",
+            "img2":"img/needles3-1.jpg",
+            "name":"NEEDLES",
+            "detail":"PAPILLON BRACELET 925 (SILVER)",
+            "price":"910,000원",
+            "type": "acc",
+            "type2": "all",
+            "sub_img1":"design_img/need3-1.jpg",
+            "sub_img2":"design_img/need3-2.jpg",
+            "sub_img3":"design_img/need3-3.jpg",
+            "sub_img4":"design_img/need3-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"M",
+            "option3":"L",
+            "option4":"",
+            "itemCode":"3"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/south1.jpg",
+            "img2":"img/south1-1.jpg",
+            "name":"SOUTH2WEST8",
+            "detail":"6 POCKET CLASSIC SHIRT (YELLOW/PINK)",
+            "price":"225,000원",
+            "type": "top" ,
+            "type2": "all",
+            "sub_img1":"design_img/south1-1.jpg",
+            "sub_img2":"design_img/south1-2.jpg",
+            "sub_img3":"design_img/south1-3.jpg",
+            "sub_img4":"design_img/south1-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"L",
+            "itemCode":"4"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/south-2.jpg",
+            "img2":"img/south2-1.jpg",
+            "name":"SOUTH2WEST8",
+            "detail":"S/S  CREW NECK TEE - MAZE (BLACK)",
+            "price":"135,000원",
+            "type": "top",
+            "type2": "all",
+            "sub_img1":"design_img/south2-1.jpg",
+            "sub_img2":"design_img/south2-2.jpg",
+            "sub_img3":"design_img/south2-3.jpg",
+            "sub_img4":"design_img/south2-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"L (SOLD)",
+            "itemCode":"5"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/south-3.jpg",
+            "img2":"img/south3-1.jpg",
+            "name":"SOUTH2WEST8",
+            "detail":"BOOK BAG - FANNEL PT. (LEOPARD)",
+            "price":"75,000원",
+            "type": "acc",
+            "type2": "all",
+            "sub_img1":"design_img/south3-1.jpg",
+            "sub_img2":"design_img/south3-2.jpg",
+            "sub_img3":"design_img/south3-3.jpg",
+            "sub_img4":"design_img/south3-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"OS",
+            "option3":"",
+            "option4":"",
+            "itemCode":"6"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/jieda-1.jpg",
+            "img2":"img/jieda1-1.jpg",
+            "name":"JIEDA",
+            "detail":"CUT OFF TAILORED JACKET (GREY)",
+            "price":"763,000원",
+            "type": "outer",
+            "type2": "all",
+            "sub_img1":"design_img/jieda1-1.jpg",
+            "sub_img2":"design_img/jieda1-2.jpg",
+            "sub_img3":"design_img/jieda1-3.jpg",
+            "sub_img4":"design_img/jieda1-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"L",
+            "itemCode":"7"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/jieda-2.jpg",
+            "img2":"img/jieda2-1.jpg",
+            "name":"JIEDA",
+            "detail":"DENIM CARGO PANTS (BLUE)",
+            "price":"455,000원",
+            "type": "bottom",
+            "type2": "all",
+            "sub_img1":"design_img/jieda2-1.jpg",
+            "sub_img2":"design_img/jieda2-2.jpg",
+            "sub_img3":"design_img/jieda2-3.jpg",
+            "sub_img4":"design_img/jieda2-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"L",
+            "itemCode":"8"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/jieda-3.jpg",
+            "img2":"img/jieda3-1.jpg",
+            "name":"JIEDA",
+            "detail":"TYROLEAN BOOTS (BLACK)",
+            "price":"825,000원",
+            "type": "shoe",
+            "type2": "all",
+            "sub_img1":"design_img/jieda3-1.jpg",
+            "sub_img2":"design_img/jieda3-2.jpg",
+            "sub_img3":"design_img/jieda3-3.jpg",
+            "sub_img4":"design_img/jieda3-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"41",
+            "option3":"42",
+            "option4":"43",
+            "itemCode":"9"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/engin-1.jpg",
+            "img2":"img/engin1-1.jpg",
+            "name":"ENGINEERED GARMENTS",
+            "detail":"MT JACKET - COTTON RIPSTOP (OLIVE)",
+            "price":"555,000원",
+            "type": "outer",
+            "type2": "all",
+            "sub_img1":"design_img/engin1-1.jpg",
+            "sub_img2":"design_img/engin1-2.jpg",
+            "sub_img3":"design_img/engin1-3.jpg",
+            "sub_img4":"design_img/engin1-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"L",
+            "itemCode":"10"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/engin-2.jpg",
+            "img2":"img/engin2-1.jpg",
+            "name":"ENGINEERED GARMENTS",
+            "detail":"CREPIN EG 3.0 (ANIMAL PRINT)",
+            "price":"326,000원",
+            "type": "outer",
+            "type2": "all",
+            "sub_img1":"design_img/engin2-1.jpg",
+            "sub_img2":"design_img/engin2-2.jpg",
+            "sub_img3":"design_img/engin2-3.jpg",
+            "sub_img4":"design_img/engin2-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"L",
+            "itemCode":"11"
+        },
+        {
+            "link":"designer_product.html",
+            "img1":"img/engin-3.jpg",
+            "img2":"img/engin3-1.jpg",
+            "name":"ENGINEERED GARMENTS",
+            "detail":"BUCKET HAT - PC POPLIN (KHAKI)",
+            "price":"158,000원",
+            "type": "acc",
+            "type2": "all",
+            "sub_img1":"design_img/engin3-1.jpg",
+            "sub_img2":"design_img/engin3-2.jpg",
+            "sub_img3":"design_img/engin3-3.jpg",
+            "sub_img4":"design_img/engin3-4.jpg",
+            "option1":"SELECT YOUR OPTION",
+            "option2":"S",
+            "option3":"M",
+            "option4":"",
+            "itemCode":"12"
+        }
+    ],
+    "work5":[
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/under1.jpg",
+            "img2":"img/under1-1.jpg",
+            "name":"Undercover",
+            "detail":"언더커버 x GU -레터링 더비슈즈",
+            "price":"140,000원",
+            "type": "shoe",
+            "type2": "all",
+            "sub_img1":"img/under_product1.jpg",
+            "sub_img2":"img/under_product2.jpg",
+            "itemCode":"1"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/poter1.jpg",
+            "img2":"img/poter1-1.jpg",
+            "name":"Poter",
+            "detail":"Porter tanker waistbag",
+            "price":"80,000원",
+            "type": "acc",
+            "type2": "all",
+            "sub_img1":"secon_img/poter1.jpg",
+            "sub_img2":"secon_img/poter2.jpg",
+            "itemCode":"2"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/991.jpg",
+            "img2":"img/991-1.jpg",
+            "name":"99%is",
+            "detail":"[4]99%IS 리플렉티브 자켓",
+            "price":"490,000원",
+            "type": "outer",
+            "type2": "all",
+            "sub_img1":"secon_img/99is-1.jpg",
+            "sub_img2":"secon_img/99is-2.jpg",
+            "itemCode":"3"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/vivi1.jpg",
+            "img2":"img/vivi1-1.jpg",
+            "name":"Vivienne westwood",
+            "detail":"Vivienne westwood backpack",
+            "price":"495,000원",
+            "type": "acc",
+            "type2": "all",
+            "sub_img1":"secon_img/vivi-1.jpg",
+            "sub_img2":"secon_img/vivi-2.jpg" ,
+            "itemCode":"4"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/maison1.jpg",
+            "img2":"img/maison1-1.jpg",
+            "name":"Maison margiela",
+            "detail":"마르지엘라 super bleach wool트러커 자켓",
+            "price":"950,000원",
+            "type": "outer",
+            "type2": "all",
+            "sub_img1":"secon_img/maison-1.jpg",
+            "sub_img2":"secon_img/maison-2.jpg" ,
+            "itemCode":"5"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/kiko1.jpg",
+            "img2":"img/kiko1-1.jpg",
+            "name":"Kiko Kostadinov",
+            "detail":"아식스 키코코스타디노브 젤버즈2 카라멜 260",
+            "price":"500,000원",
+            "type": "shoe",
+            "type2": "all",
+            "sub_img1":"secon_img/kiko-1.jpg",
+            "sub_img2":"secon_img/kiko-2.jpg",
+            "itemCode":"6"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/stu1.jpg",
+            "img2":"img/stu1-1.jpg",
+            "name":"Stussy",
+            "detail":"스투시 제팬 라인 월드투어 화이트 코치자켓",
+            "price":"126,000원",
+            "type": "outer",
+            "type2": "all",
+            "sub_img1":"secon_img/stu-1.jpg",
+            "sub_img2":"secon_img/stu-2.jpg" ,
+            "itemCode":"7"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/doble1.jpg",
+            "img2":"img/doble1-1.jpg",
+            "name":"Doublet",
+            "detail":"2020년도 더블렛 doublet 액팅썸원 니트 티셔츠",
+            "price":"495,000원",
+            "type": "top",
+            "type2": "all",
+            "sub_img1":"secon_img/double-1.jpg",
+            "sub_img2":"secon_img/double-2.jpg",
+            "itemCode":"8"
+            
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/sup1.jpg",
+            "img2":"img/sup1-1.jpg",
+            "name":"Supreme",
+            "detail":"슈프림 노스페이스 핑크 서밋 백팩",
+            "price":"269,000원",
+            "type": "acc",
+            "type2": "all",
+            "sub_img1":"secon_img/sup-1.jpg",
+            "sub_img2":"secon_img/sup-2.jpg",
+            "itemCode":"9"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/y-p1.jpg",
+            "img2":"img/y-p1-1.jpg",
+            "name":"Y-project",
+            "detail":"와이프로젝트 러플진",
+            "price":"500,000원",
+            "type": "bottom",
+            "type2": "all",
+            "sub_img1":"secon_img/ypro-1.jpg",
+            "sub_img2":"secon_img/ypro-2.jpg",
+            "itemCode":"10"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/dior1.jpg",
+            "img2":"img/dior1-1.jpg",
+            "name":"Dior",
+            "detail":"디올 x 숀스투시 펜던트 목걸이",
+            "price":"750,000원",
+            "type": "acc",
+            "type2": "all",
+            "sub_img1":"secon_img/dior-1.jpg",
+            "sub_img2":"secon_img/dior-2.jpg" ,
+            "itemCode":"11"
+        },
+        {
+            "link":"seconhands_product.html",
+            "img1":"img/kang1.jpg",
+            "img2":"img/kang1-1.jpg",
+            "name":"Kanghyuk",
+            "detail":"[L] 강혁 에어백 트러커 자켓",
+            "price":"1,450,000원",
+            "type": "outer",
+            "type2":"all",
+            "sub_img1":"secon_img/kang-1.jpg",
+            "sub_img2":"secon_img/kang-2.jpg" ,
+            "itemCode":"12"
+        }
+    ]
+    
+    
+}

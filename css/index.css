@@ -17,22 +17,18 @@
     width:100%;
     margin-top:30%;
 }
-.a1-sub .i-01{
-    padding-right: 2%;
-}
-.a1-sub .i-02{
-    padding-left: 2%;
-}
+
 
 .a1-sub img:hover{
     opacity: .8;
 }
-.a1 span{
+.a1 span:nth-of-type(1){
     position: absolute;
     color:#fff;
     font-size: 3vw;
+
     font-weight: bold;
-    left:8%; bottom:34px;
+    left:3%; bottom:34px;
 }
 
 
@@ -48,6 +44,13 @@
 .a2-sub img{
     float:right;
     width:65%;
+    transition: 1.5s;
+    opacity: 0;
+    transform: translateY(200px);
+}
+.a2-sub img.active{
+    opacity: 1;
+    transform: translateY(0px);
 }
 .a2-sub p{
     position:absolute;
@@ -59,12 +62,28 @@
     line-height:1;
     font-weight:bold;
     color:#222;
+    transform: translateX(-200px);
+    display: block;
+    transition: 1.5s;
+    opacity: 0;
+}
+.a2-sub p span:nth-of-type(1).active{
+    transform: translateX(0px);
+    opacity: 1;
 }
 .a2-sub p span:nth-of-type(2){
     display:block;
     font-size:3vw;
     color:#222;
     margin-top:10%;
+    transform: translateX(-200px);
+    display: block;
+    transition: 2s;
+    opacity: 0;
+}
+.a2-sub p span:nth-of-type(2).active{
+    transform: translateX(0px);
+    opacity: 1;
 }
 
 .a3{
@@ -138,6 +157,13 @@
 .a4-sub img{
     float:left;
     width:65%;
+    opacity: 0;
+    transform: translateY(200px);
+    transition: 1.5s;
+}
+.a4-sub img.active{
+    opacity: 1;
+    transform: translateY(0);
 }
 .a4-sub p{
     position:absolute;
@@ -149,12 +175,28 @@
     line-height:1;
     font-weight:bold;
     color:#222;
+    display: block;
+    transition: 1.5s;
+    opacity: 0;
+    transform: translateX(200px);
+}
+.a4-sub p span:nth-of-type(1).active{
+    opacity: 1;
+    transform: translateX(0);
 }
 .a4-sub p span:nth-of-type(2){
     display:block;
     font-size:3vw;
     color:#222;
     margin-top:10%;
+    display: block;
+    transition: 2s;
+    opacity: 0;
+    transform: translateX(200px);
+}
+.a4-sub p span:nth-of-type(2).active{
+    opacity: 1;
+    transform: translateX(0);
 }
 .a5{
     position: relative;
@@ -227,6 +269,7 @@ margin:0 0 12% -7%;
     text-align: right;
 }
 
+
 .a6 h2 {
     font-size:7vw;
     font-weight:bold;
@@ -234,17 +277,57 @@ margin:0 0 12% -7%;
     width:100%;
 }
 .a6-sub{
+    flex-wrap: wrap;
     display: flex;
     justify-content:space-between; 
     width:100%;
 }
+
 .a6-sub img{
     margin-top:100px;
     width: 100%;
 }
-.st1{
-    width:23%
+.a6-sub > div{ 
+    flex-shrink: 0;
+    width:23%;
 }
+.a6-sub > div:nth-of-type(1){
+    opacity: 0;
+    transform: translateY(200px);
+    transition: 1.5s;
+} 
+.a6-sub > div:nth-of-type(1).active{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+.a6-sub > div:nth-of-type(2){
+    opacity: 0;
+    transform: translateY(-200px);
+    transition: 1.5s;
+} 
+.a6-sub > div:nth-of-type(2).active{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+.a6-sub > div:nth-of-type(3){
+    opacity: 0;
+    transform: translateY(200px);
+    transition: 1.5s;
+} 
+.a6-sub > div:nth-of-type(3).active{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+.a6-sub > div:nth-of-type(4){
+    opacity: 0;
+    transform: translateY(-200px);
+    transition: 1.5s;
+} 
+.a6-sub > div:nth-of-type(4).active{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+
 .st1 img{
     transition:.5s;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.6);
@@ -273,7 +356,7 @@ margin-bottom: -20%;
 
 .st2{
     margin-top:10%;
-    width:23%
+    /* width:23% */
 }
 .st2 img{
     transition:.5s;
@@ -295,7 +378,7 @@ margin-bottom: -20%;
 }
 
 .st3{
-    width:23%
+    /* width:23% */
 }
 .st3 img{
     transition:.5s;
@@ -319,7 +402,7 @@ margin-bottom: -20%;
 
 .st4{
     margin-top:10%;
-    width:23%
+    /* width:23% */
 }
 .st4 img{
     transition:.5s;
@@ -343,6 +426,9 @@ margin-bottom: -20%;
 .st5{
     text-align: center;
     margin-top:10%;
+}
+.st5 a{
+    cursor: pointer;
 }
 
 }
@@ -596,8 +682,11 @@ margin-bottom: -20%;
     margin-top:100px;
     width: 100%;
 }
+
+
 .st1{
-    width:23%
+    /* width:23% */
+    
 }
 .st1 a img{
     transition:.5s;
@@ -627,7 +716,7 @@ margin-bottom: -20%;
 
 .st2{
     margin-top:10%;
-    width:23%
+    /* width:23% */
 }
 .st2 img{
     transition:.5s;
@@ -649,7 +738,7 @@ margin-bottom: -20%;
 }
 
 .st3{
-    width:23%
+    /* width:23% */
 }
 .st3 img{
     transition:.5s;
@@ -673,7 +762,7 @@ margin-bottom: -20%;
 
 .st4{
     margin-top:10%;
-    width:23%
+    /* width:23% */
 }
 .st4 img{
     transition:.5s;

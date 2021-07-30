@@ -5,7 +5,7 @@
 *img{width:100%;}
 
 main{
-    padding:20% 0 0 0;
+    padding:300px 0 0 0;
 }
 .t-1{
     color:#222;
@@ -76,13 +76,15 @@ main{
     width:100%;
 }
 .i-1 figure{
-    padding:10% 0 0 0;
+    /* padding:10% 0 0 0; */
     width:100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .i-1 figure div{
     width:32%;
+    margin-top: 8%;
    
 }
 .i-1 div b{

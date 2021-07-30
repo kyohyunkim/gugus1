@@ -24,59 +24,43 @@ main{
     position: relative;
     width:60%;
     text-align: center;
+    overflow: hidden;
 }
-.i-1 div:nth-of-type(1){
-    width:100%;
+.i-1 .img-1 img{
+    width: 80%;
+    margin:0;
+    flex-shrink: 0;
 }
-.i-1 div:nth-of-type(2){
-    position:absolute;
-    bottom:0;
-    width:100%;
-    text-align:center;
-}
-.i-1 div img{width:100%;}
-.ind{
+.i-1 div .img-1{
     display: flex;
-    justify-content: space-between;
-    padding:0 40% 3% 40%;
-}
-.i-1 .ind a div{
-    border:1px solid#222;
-    border-radius: 100%;
-    width:25px; height: 25px;
-    font-size: 0;
-}
-.i-1 .ind .active div{
-    background-color: #222;
-    border-radius: 100%;
-    width:25px; height: 25px;
-    font-size: 0;
+    margin: 0;
+    transition: .5s;
 }
 .t-1{
     width:35%;
 }
 
-.t-1 p:nth-of-type(1){
+.t-1 .detail p:nth-of-type(1){
     font-size: 1.4vw;
     font-weight: bold;
     width:80%;
 }
-.t-1 p:nth-of-type(2){
+.t-1 .detail p:nth-of-type(2){
     font-size: 4.2vw;
     font-weight: bold;
     padding:0 0 6% 0;
     width:90%;
 }
-.t-1 p:nth-of-type(3){
+.t-1 .text-detail1{
     font-size: 1.3rem;
     font-weight: bold;
     padding:20% 0 3% 0;
 }
-.t-1 p:nth-of-type(4){
+.t-1 .text-detail2{
     font-weight: bold;
     padding:4% 0 4% 0
 }
-.t-1 p:nth-of-type(5){
+.t-1.text-detail3{
     font-weight: bold;
     padding:0 0 4% 0
 }
@@ -89,6 +73,7 @@ main{
     color:blueviolet;
 }
 .t-1 li{
+    font-size: 4vw;
     font-weight: bold;
 }
 .t-1 li:nth-of-type(1){
