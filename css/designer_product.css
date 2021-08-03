@@ -25,6 +25,8 @@ main{
     display:flex;
     justify-content: space-between;
     width:100%;
+}
+.p-1 .i-1 div{
     flex-wrap: wrap;
 }
 .p-1 .i-1 img:nth-of-type(1){

@@ -1,6 +1,6 @@
 function letsGo(){
 
-    fetch('data/data.json')
+    fetch('../data/data.json')
     .then( res => res.json() )
     .then( data => callback(data));
 
@@ -8,7 +8,7 @@ function letsGo(){
 
         let design1='';
         
-       
+        
         const elFig = document.querySelector('.i-1 figure');
         const elMenu = document.querySelectorAll('.t-2 a span');
 

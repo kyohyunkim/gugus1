@@ -133,44 +133,50 @@
             "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
         },
         {
-            "img": "img/style1.jpg",
+            "img": "img/style5.jpg",
             "name":"STYLE #05",
-            "detail":"스타일링 가이드 / HUMAN MADE,WTAPS,OLDPARK, SOUTH2 WEST8,ENGINEERED GARMENTS,BLACK EYE PATCH"
+            "detail":"스타일링 가이드 / KOMPAKT RECORD BAR REVERSE EVERY DAMN DAY T-SHIRT, WHITE / SOUTH2 WEST8 BELTED BDU PANT RIPSTOP S2W8 CAMO, GREY"
+            
+            
         },
         {
-            "img": "img/style2.jpg",
+            "img": "img/style6.jpg",
             "name":"STYLE #06",
-            "detail":"스타일링 가이드 / DESCENDANT,WTAPS,HUMAN MADE,ENGINEERED GARMENTS,NEIGHBORHOOD"
+            "detail":"스타일링 가이드 / ENGINEERED GARMENTS MT JACKET, BLACK / ENGINEERED GARMENTSCAMP SHIRT, GREY / DESCENDANT DBS NYLON SHORTS, BLACK"
+            
+            
         },
         {
-            "img": "img/style3.jpg",
+            "img": "img/style7.jpg",
             "name":"STYLE #07",
-            "detail":"스타일링 가이드 / ENGINEERED GARMENTS,NEEDLES,HUMAN MADE,DESCENDANT,ARIES,SOUTH2 WEST8"
+            "detail":"스타일링 가이드 / NOONGOONS POSTCARD TEE, PINK /  WTAPS JUNGLE 01 / SHORTS / COTTON. TWILL. CAMO, BEIGE"
+            
         },
         {
-            "img": "img/style4.jpg",
+            "img": "img/style8.jpg",
             "name":"STYLE #08",
-            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+            "detail":"스타일링 가이드 / ARIES TEMPLE SS TIE DYE TEE, MULT / NOONGOONS CLUB PANT, LAVENDER"
+            
         },
         {
-            "img": "img/style1.jpg",
+            "img": "img/style9.jpg",
             "name":"STYLE #09",
-            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+            "detail":"스타일링 가이드 / YSTRDY'S TMRRW BOULDER SUNSHADE CAP NYLON TWILL × COMESANDGOES, BEGIE / DESCENDANT BAIT NYLON JACKET, BEIGE / IWTAPS TUCK 01 / SHORTS / COTTON. DENIM, INDIGO / YSTRDY'S TMRRW PRAIRIE BOOTS, BEIGE"
         },
         {
-            "img": "img/style2.jpg",
+            "img": "img/style10.jpg",
             "name":"STYLE #10",
-            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+            "detail":"스타일링 가이드 / NEIGHBORHOOD SAVAGE . CREW / C-HAT, INDIGO  / HUMAN MADE LONG-T #3, BLUE / DESCENDANT DBS NYLON SHORTS, BLACK / NEIGHBORHOOD NHVN . COMFYCUSH . SK8-HI / CL-SHOES, BLACK"
         },
         {
-            "img": "img/style3.jpg",
+            "img": "img/style11.jpg",
             "name":"STYLE #11",
-            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+            "detail":"스타일링 가이드 / DESCENDANT CROP PIGMENT DYE LS, BEIGE / WTAPS JUNGLE 01 / SHORTS / COTTON. TWILL. CAMO, OLIVE DRAB / NEIGHBORHOOD NHVN . COMFYCUSH . SK8-HI / CL-SHOES, BLACK"
         },
         {
-            "img": "img/style4.jpg",
+            "img": "img/style12.jpg",
             "name":"STYLE #12",
-            "detail":"스타일링 가이드 / DESCENDANT, WTAPS,ARIES,SOUTH2 WEST8, NEEDLES, ENGINEERED GARMENTS"
+            "detail":"스타일링 가이드 / HUMAN MADE JUNK FOOD ALOHA SHIRT, WHITE / DESCENDANT SHORE CARGO BEACH SHORTS, BEIGE"
         }
     ],
     "work4":[
@@ -178,15 +184,16 @@
             "link":"designer_product.html",
             "img1":"img/needles1.jpg",
             "img2":"img/needles1-1.jpg",
+            "sub_img1":"design_img/need1-1.jpg",
+            "sub_img2":"design_img/need1-4.jpg",
+            "sub_img3":"design_img/need1-2.jpg",
+            "sub_img4":"design_img/need1-3.jpg",
+            "like_img1":"design_img/needles_like1-1.jpg",
             "name":"NEEDLES",
             "detail":"BOOT-CUT STUDENT PANT (PATCHWORK)",
             "price":"315,000원",
             "type": "bottom",
             "type2": "all",
-            "sub_img1":"design_img/need1-1.jpg",
-            "sub_img2":"design_img/need1-2.jpg",
-            "sub_img3":"design_img/need1-3.jpg",
-            "sub_img4":"design_img/need1-4.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -206,6 +213,7 @@
             "sub_img2":"design_img/need2-2.jpg",
             "sub_img3":"design_img/need2-3.jpg",
             "sub_img4":"design_img/need2-4.jpg",
+            "like_img1":"design_img/needles_like1-2.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -225,6 +233,7 @@
             "sub_img2":"design_img/need3-2.jpg",
             "sub_img3":"design_img/need3-3.jpg",
             "sub_img4":"design_img/need3-4.jpg",
+            "like_img1":"design_img/needles_like1-3.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"M",
             "option3":"L",
@@ -244,6 +253,7 @@
             "sub_img2":"design_img/south1-2.jpg",
             "sub_img3":"design_img/south1-3.jpg",
             "sub_img4":"design_img/south1-4.jpg",
+            "like_img1":"design_img/south_like1-1.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -263,6 +273,7 @@
             "sub_img2":"design_img/south2-2.jpg",
             "sub_img3":"design_img/south2-3.jpg",
             "sub_img4":"design_img/south2-4.jpg",
+            "like_img1":"design_img/south_like1-2.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -282,6 +293,7 @@
             "sub_img2":"design_img/south3-2.jpg",
             "sub_img3":"design_img/south3-3.jpg",
             "sub_img4":"design_img/south3-4.jpg",
+            "like_img1":"design_img/south_like1-3.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"OS",
             "option3":"",
@@ -301,6 +313,7 @@
             "sub_img2":"design_img/jieda1-2.jpg",
             "sub_img3":"design_img/jieda1-3.jpg",
             "sub_img4":"design_img/jieda1-4.jpg",
+            "like_img1":"design_img/jieda_like1-1.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -320,6 +333,7 @@
             "sub_img2":"design_img/jieda2-2.jpg",
             "sub_img3":"design_img/jieda2-3.jpg",
             "sub_img4":"design_img/jieda2-4.jpg",
+            "like_img1":"design_img/jieda_like1-2.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -339,6 +353,7 @@
             "sub_img2":"design_img/jieda3-2.jpg",
             "sub_img3":"design_img/jieda3-3.jpg",
             "sub_img4":"design_img/jieda3-4.jpg",
+            "like_img1":"design_img/jieda_like1-3.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"41",
             "option3":"42",
@@ -358,6 +373,7 @@
             "sub_img2":"design_img/engin1-2.jpg",
             "sub_img3":"design_img/engin1-3.jpg",
             "sub_img4":"design_img/engin1-4.jpg",
+            "like_img1":"design_img/engin_like1-1.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -377,6 +393,7 @@
             "sub_img2":"design_img/engin2-2.jpg",
             "sub_img3":"design_img/engin2-3.jpg",
             "sub_img4":"design_img/engin2-4.jpg",
+            "like_img1":"design_img/engin_like1-2.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
@@ -396,6 +413,7 @@
             "sub_img2":"design_img/engin3-2.jpg",
             "sub_img3":"design_img/engin3-3.jpg",
             "sub_img4":"design_img/engin3-4.jpg",
+            "like_img1":"design_img/engin_like1-3.jpg",
             "option1":"SELECT YOUR OPTION",
             "option2":"S",
             "option3":"M",
